@@ -1,0 +1,63 @@
+/* TOC */
+
+/* General Cotent
+ * Typography
+ * Header and Navigation
+ * Images and Media
+ * Footer
+ * Media Queries */
+
+/* General Content -----------------------*/
+.main{padding-top:3%;}
+.row{padding:2% 0;}
+.teal{background-color: #008080;}
+.yellow{background-color: #008080;}
+.white{background-color: #fff;}
+.welcome{
+  height: 200px;
+  width: 200px;
+}
+.back{
+    background-color: #fff;
+    height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+    }
+
+/* Typography ---------------------------*/
+font-family: 'Abel', sans-serif;
+font-family: 'Satisfy', cursive;
+h1{
+    font-family: 'Abel';
+    font-size: 3em;
+    margin: 0.67em;
+}
+body{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5em;
+    color: #000;
+}
+h2{
+    font-family: 'Abel';
+    font-size: 3em;
+    margin: 0.67em;
+}
+h2.bio{color: #fff;}
+p.bio{color: #fff;}
+
+/* Header and Navigation -----------------*/
+header.main_nav{
+    padding: 1% 0;
+    display: block;
+}
+
+/* Images and Media ----------------------*/
+img{max-width: 100%;}
+img.avatar{
+    border-radius: 400px;
+    border: 2px solid #fff;
+}
+
+/* Footer --------------------------------*/
+
+/* Media Queries -------------------------*/
