@@ -17,6 +17,13 @@
   height: 200px;
   width: 200px;
 }
+.titles{
+  font-family: 'Abel';
+  font-size: 3em;
+  margin: 0.67em;
+  font-style: italic;
+
+}
 .back{
     background-color: #fff;
     height: 100vh;
@@ -32,6 +39,10 @@ h1{
     font-size: 3em;
     margin: 0.67em;
 }
+img.resize{
+   max-width:40%;
+   max-height:40%;
+}
 body{
     font-family: 'Abel', sans-serif;
     font-size: 1.5em;
@@ -40,10 +51,10 @@ body{
 h2{
     font-family: 'Abel';
     font-size: 3em;
-    margin: 0.67em;
 }
 h2.bio{color: #fff;}
 p.bio{color: #fff;}
+
 
 /* Header and Navigation -----------------*/
 header.main_nav{
