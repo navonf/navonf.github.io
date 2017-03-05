@@ -39,10 +39,15 @@ h1{
     font-size: 3em;
     margin: 0.67em;
 }
-img.resize{
+img.shake{
    max-width:40%;
    max-height:40%;
 }
+img.tthacks{
+   max-width:70%;
+   max-height:70%;
+}
+
 body{
     font-family: 'Abel', sans-serif;
     font-size: 1.5em;
@@ -68,7 +73,9 @@ img.avatar{
     border-radius: 400px;
     border: 2px solid #fff;
 }
-
+img:hover{
+  opacity: 0.7;
+}
 /* Footer --------------------------------*/
 
 /* Media Queries -------------------------*/
