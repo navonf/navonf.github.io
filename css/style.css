@@ -11,7 +11,6 @@
 .main{padding-top:3%;}
 .row{padding:2% 0;}
 .teal{background-color: #008080;}
-.yellow{background-color: #008080;}
 .white{background-color: #fff;}
 .welcome{
   height: 200px;
@@ -38,6 +37,7 @@ h1{
     font-family: 'Abel';
     font-size: 3em;
     margin: 0.67em;
+    color: blue;
 }
 img.shake{
    max-width:40%;
