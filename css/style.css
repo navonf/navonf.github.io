@@ -39,13 +39,32 @@ h1{
     margin: 0.67em;
     color: blue;
 }
+img.icon{
+  max-width:5%;
+  max-height:5%;
+}
 img.shake{
    max-width:40%;
    max-height:40%;
 }
+
 img.tthacks{
    max-width:70%;
    max-height:70%;
+}
+img.express{
+   max-width:51%;
+   max-height:51%;
+}
+
+img.hackathon{
+   max-width:50%;
+   max-height:50%;
+}
+
+img.thinking{
+   max-width:45%;
+   max-height:45%;
 }
 
 body{
@@ -57,6 +76,7 @@ h2{
     font-family: 'Abel';
     font-size: 3em;
 }
+
 h2.bio{color: #fff;}
 p.bio{color: #fff;}
 
