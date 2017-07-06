@@ -16,6 +16,11 @@
   height: 200px;
   width: 200px;
 }
+.nav{
+  border-radius: 10%;
+  height: 30%;
+  width: 30%;
+}
 .titles{
   font-family: 'Abel';
   font-size: 3em;
@@ -52,6 +57,12 @@ img.tthacks{
    max-width:70%;
    max-height:70%;
 }
+
+img.polyhacks{
+   max-width:70%;
+   max-height:70%;
+}
+
 img.express{
    max-width:51%;
    max-height:51%;
