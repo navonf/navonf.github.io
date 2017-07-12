@@ -35,7 +35,7 @@
     background-size: cover;
     }
 
-/* Typography ---------------------------*/
+/* Typography & Properties ---------------------------*/
 font-family: 'Abel', sans-serif;
 font-family: 'Satisfy', cursive;
 h1{
@@ -76,6 +76,10 @@ img.hackathon{
 img.thinking{
    max-width:45%;
    max-height:45%;
+}
+
+hr.colored {
+    width: 200px;
 }
 
 body{
