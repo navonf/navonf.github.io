@@ -34,7 +34,12 @@
     min-width: 100%;
     background-size: cover;
     }
-
+.social-btn{
+  height: 70px;
+  width: 150px;
+  font-size: 15px;
+  vertical-align: middle;
+}
 /* Typography & Properties ---------------------------*/
 font-family: 'Abel', sans-serif;
 font-family: 'Satisfy', cursive;
