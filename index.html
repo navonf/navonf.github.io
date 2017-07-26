@@ -29,6 +29,7 @@
 
   <!--- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
 
   <!-- Latest bootstrap, minified Javascript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -36,19 +37,18 @@
   crossorigin="anonymous"></script>
 
 </head>
+
 <body>
 
 <header class="main_nav back">
     <div class="container">
-        <center>
-            <br><br><br>
-            <br><br>
-            <br><br><br>
+
+          <center>
+            <br><br><br><br><br><br><br><br>
             <img class="welcome" src="images/mac.gif"
             style="padding-left: 36px;">
-            <br>
-            <h1> navon </h1>
-            <br>
+
+            <h1 class="hey"> hey there! </h1>
 
           <div>
             <a href="https://github.com/navonf" target="_blank" style="text-decoration: none">
@@ -65,7 +65,9 @@
             </a>
           </div>
 
+          <h1 class="typeB"></h1>
         </center>
+
     </div>
 </header>
 
@@ -177,6 +179,26 @@
 
     <br>
 
+
+    <!-- <script>
+    $(".hey").fadeIn("slow")
+      .animate({top: "+=90px"}, 1000)
+      .slideUp("slow");
+    </script> -->
+
+    <script>
+    $(".hey").hide()
+      .fadeIn(1400)
+      .slideUp("slow");
+    </script>
+
+    <script>
+    $(".typeB").typeIt({
+     strings: ['navon'],
+     startDelay: 3000
+    });
+    </script>
+
 </body>
 
 <!-- Footer -->
@@ -186,7 +208,7 @@
         <div class="row twelve columns"></div>
         <center>
 
-            <p> 2017 | Navon Francis. All Rights Reserved.</p>
+            <p> 2017 · Navon Francis. All Rights Reserved.</p>
           </center>
     </div>
 </footer>

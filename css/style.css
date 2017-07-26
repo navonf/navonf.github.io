@@ -14,12 +14,16 @@
 .white{background-color: #fff;}
 .welcome{
   height: 200px;
-  width: 200px;
+  width: 225px;
 }
 .nav{
   border-radius: 10%;
   height: 30%;
   width: 30%;
+}
+.myName{
+  text-align: center;
+  margin-top: 30px;
 }
 .titles{
   font-family: 'Abel';
@@ -40,6 +44,12 @@
   font-size: 15px;
   vertical-align: middle;
 }
+.hey{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
 /* Typography & Properties ---------------------------*/
 font-family: 'Abel', sans-serif;
 font-family: 'Satisfy', cursive;
@@ -99,7 +109,6 @@ h2{
 
 h2.bio{color: #fff;}
 p.bio{color: #fff;}
-
 
 /* Header and Navigation -----------------*/
 header.main_nav{
