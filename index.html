@@ -42,11 +42,9 @@
 
 <header class="main_nav back">
     <div class="container">
-
           <center>
             <br><br><br><br><br><br><br><br>
-            <img class="welcome" src="images/mac.gif"
-            style="padding-left: 36px;">
+            <img class="welcome" src="images/mac.gif" style="padding-left: 36px;">
 
             <h1 class="hey"> hey there! </h1>
 
@@ -72,25 +70,24 @@
 </header>
 
 <div>
-
     <center class="titles">
-        <span> general </span><hr>
+        <span class="gen"> general </span><hr>
     </center>
     <center>
 
     <div class="container">
         <div class="four columns">
-          <h2> univ. central fl </h2>
+          <h2 class="subs"> univ. central fl </h2>
           <img src="images/laptop.png">
           <p> studying computer science in orlando, florida </p>
         </div>
         <div class="four columns">
-          <h2> leisure </h2>
+          <h2 class="subs"> leisure </h2>
           <img src="images/skateboard.png">
           <p> i enjoy skateboarding and  <a href="https://www.youtube.com/user/Navonf" target="_blank" style="text-decoration: none">film</a> </p>
         </div>
         <div class="four columns">
-            <h2> resume </h2>
+            <h2 class="subs"> resume </h2>
               <a href="https://drive.google.com/open?id=0B1HowitB9kURVHRQWmFOZVlYSG8" target="_blank" style="text-decoration: none">
                 <img class="shake" src="images/resume.png"
                 style="border-bottom-width: 5px; padding-bottom: 5px;">
@@ -179,13 +176,6 @@
 
     <br>
 
-
-    <!-- <script>
-    $(".hey").fadeIn("slow")
-      .animate({top: "+=90px"}, 1000)
-      .slideUp("slow");
-    </script> -->
-
     <script>
     $(".hey").hide()
       .fadeIn(1400)
@@ -199,18 +189,27 @@
     });
     </script>
 
+    <!-- <script>
+    $(document).ready(function(){
+      $(".gen").hover(function(){
+        $(".subs").css("background-color", "yellow");
+      });
+    });
+    </script> -->
+
+
+
 </body>
 
 <!-- Footer -->
 <footer>
-    <div class="container">
-        <div class="row twelve columns"></div>
-        <div class="row twelve columns"></div>
-        <center>
-
-            <p> 2017 · Navon Francis. All Rights Reserved.</p>
-          </center>
-    </div>
+  <div class="container">
+    <div class="row twelve columns"></div>
+    <div class="row twelve columns"></div>
+    <center>
+    <p> 2017 · Navon Francis. All Rights Reserved.</p>
+    </center>
+  </div>
 </footer>
 
 <!-- End -->

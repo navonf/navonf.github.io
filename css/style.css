@@ -107,8 +107,12 @@ h2{
     font-size: 3em;
 }
 
-h2.bio{color: #fff;}
-p.bio{color: #fff;}
+h2.bio{
+  color: #fff;
+}
+p.bio{
+  color: #fff;
+}
 
 /* Header and Navigation -----------------*/
 header.main_nav{
@@ -117,13 +121,18 @@ header.main_nav{
 }
 
 /* Images and Media ----------------------*/
-img{max-width: 100%;}
+img{
+  max-width: 100%;
+}
 img.avatar{
     border-radius: 400px;
     border: 2px solid #fff;
 }
 img:hover{
   opacity: 0.7;
+}
+hr {
+  width: 75%;
 }
 /* Footer --------------------------------*/
 
