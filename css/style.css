@@ -93,9 +93,6 @@ img.thinking{
    max-height:45%;
 }
 
-hr.colored {
-    width: 200px;
-}
 
 body{
     font-family: 'Abel', sans-serif;
@@ -200,6 +197,13 @@ p.bio{
   width: 100%;
   background: grey;
 }
+.box-me {
+  border-radius: 15px;
+  border: solid rgba(0, 0, 0, 0.1);
+  border-width: 3px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
 
 /* Header and Navigation -----------------*/
 header.main_nav{
@@ -216,11 +220,14 @@ img.avatar{
     border: 2px solid #fff;
 }
 img:hover{
-  opacity: 0.7;
+  opacity: 0.8;
 }
 hr {
-  width: 75%;
+  width: 66.6%;
+  padding: 5px;
+  margin: 0px;
 }
+
 /* Footer --------------------------------*/
 
 /* Media Queries -------------------------*/
