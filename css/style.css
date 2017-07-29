@@ -40,7 +40,7 @@
     }
 .social-btn{
   height: 70px;
-  width: 150px;
+  width:S 150px;
   font-size: 15px;
   vertical-align: middle;
 }
@@ -112,6 +112,93 @@ h2.bio{
 }
 p.bio{
   color: #fff;
+}
+
+/* Underline sliders ---------------------*/
+/* Middle Out */
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: grey;
+}
+
+.subject-slide{
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.subject-slide:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.subject-slide:hover:after {
+	width: 100%;
+	background: grey;
+}
+
+/* Right to Left */
+.slidingRL {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+
+.slidingRL:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.slidingRL:hover:after {
+    width: 100%;
+    background: grey;
+}
+
+/* SLIDE LEFT TO RIGHT*/
+.slideLR {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+
+}
+.slideLR:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  border-bottom: 2px solid grey;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+.slideLR:hover:after {
+  width: 100%;
+  background: grey;
 }
 
 /* Header and Navigation -----------------*/
