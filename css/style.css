@@ -40,9 +40,10 @@
     }
 .social-btn{
   height: 70px;
-  width:S 150px;
+  width: 110px;
   font-size: 15px;
-  vertical-align: middle;
+  text-align: center;
+  line-height: 1em;
 }
 .hey{
     position: relative;
