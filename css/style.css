@@ -152,6 +152,10 @@ p.bio{
 	background: grey;
 }
 
+.projectLinks {
+  display: inline;
+}
+
 /* Right to Left */
 .slidingRL {
     display: inline-block;
