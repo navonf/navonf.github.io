@@ -44,6 +44,8 @@
   font-size: 15px;
   text-align: center;
   line-height: 1em;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .hey{
     position: relative;
@@ -51,68 +53,13 @@
     top: 0;
 }
 
-/* Typography & Properties ---------------------------*/
-font-family: 'Abel', sans-serif;
-font-family: 'Satisfy', cursive;
-h1{
-    font-family: 'Abel';
-    font-size: 3em;
-    margin: 0.67em;
-    color: blue;
-}
-img.icon{
-  max-width:5%;
-  max-height:5%;
-}
-img.shake{
-   max-width:40%;
-   max-height:40%;
-}
-
-img.tthacks{
-   max-width:70%;
-   max-height:70%;
-}
-
-img.polyhacks{
-   max-width:70%;
-   max-height:70%;
-}
-
-img.express{
-   max-width:51%;
-   max-height:51%;
-}
-
-img.hackathon{
-   max-width:50%;
-   max-height:50%;
-}
-
-img.thinking{
-   max-width:45%;
-   max-height:45%;
-}
-
-
-body{
-    font-family: 'Abel', sans-serif;
-    font-size: 1.5em;
-    color: #000;
-}
-h2{
-    font-family: 'Abel';
-    font-size: 3em;
-}
-
-h2.bio{
-  color: #fff;
-}
-p.bio{
-  color: #fff;
+.bottom{
+  position: fixed;
+  bottom: 5px;
 }
 
 /* Underline sliders ---------------------*/
+
 /* Middle Out */
 .sliding-middle-out {
 	display: inline-block;
@@ -198,7 +145,7 @@ p.bio{
   background: transparent;
   transition: width .5s ease, background-color .5s ease;
 }
-.slideLR:hover:after {
+.slideLR:hover:after .subTitle{
   width: 100%;
   background: grey;
 }
@@ -209,11 +156,98 @@ p.bio{
   padding: 2rem;
   margin-bottom: 2rem;
 }
+/* Typography & Properties ---------------------------*/
+font-family: 'Abel', sans-serif;
+font-family: 'Satisfy', cursive;
+h1{
+    font-family: 'Abel';
+    font-size: 3em;
+    margin: 0.67em;
+    color: blue;
+}
+img.icon{
+  max-width:5%;
+  max-height:5%;
+}
+img.shake{
+   max-width:40%;
+   max-height:40%;
+}
+
+img.tthacks{
+   max-width:70%;
+   max-height:70%;
+}
+
+img.polyhacks{
+   max-width:70%;
+   max-height:70%;
+}
+
+img.express{
+   max-width:51%;
+   max-height:51%;
+}
+
+img.hackathon{
+   max-width:50%;
+   max-height:50%;
+}
+
+img.thinking{
+   max-width:45%;
+   max-height:45%;
+}
+
+
+body{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5em;
+    color: #000;
+}
+h2{
+    font-family: 'Abel';
+    font-size: 3em;
+}
+
+h2.bio{
+  color: #fff;
+}
+p.bio{
+  color: #fff;
+}
 
 /* Header and Navigation -----------------*/
-header.main_nav{
-    padding: 1% 0;
+.topnav {
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav li {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
     display: block;
+}
+
+/* Change the color of links on hover */
+.topnav li:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav li.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+header.main_nav{
+    display: block;
+
 }
 
 /* Images and Media ----------------------*/
@@ -228,9 +262,8 @@ img:hover{
   opacity: 0.8;
 }
 hr {
-  width: 66.6%;
-  padding: 5px;
-  margin: 0px;
+  width: 100%;
+
 }
 
 /* Footer --------------------------------*/
