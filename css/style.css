@@ -227,7 +227,7 @@ p.bio{
   color: #fff;
 }
 
-.nameTitle {
+h1.nameTitle {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -235,7 +235,7 @@ p.bio{
   font-size: 500%;
 }
 
-.options1 {
+h4.options1 {
   position: relative;
   top: 0;
   left: 0;
@@ -244,11 +244,12 @@ p.bio{
   color: white;
 }
 
-.options1:hover {
+h4.options1:hover {
   color: black;
+  width: 140px;
 }
 
-.options {
+h4.options {
   position: relative;
   top: 0;
   left: 0;
@@ -256,7 +257,7 @@ p.bio{
   color: white;
 }
 
-.options:hover {
+h4.options:hover {
   color: black;
 }
 
@@ -272,11 +273,11 @@ img.git {
 }
 
 img.git:hover {
-  color: black;
+
 }
 
 img.linkedin:hover {
-  color: black;
+
 }
 
 img.linkedin {
