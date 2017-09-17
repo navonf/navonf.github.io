@@ -228,10 +228,10 @@ p.bio{
 }
 
 h1.nameTitle {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
-  padding-left: .5em;
+  padding-left: .2em;
   font-size: 500%;
 }
 
