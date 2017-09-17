@@ -217,6 +217,38 @@ p.bio{
   color: #fff;
 }
 
+.nameTitle {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-left: .5em;
+  font-size: 500%;
+}
+
+.options1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 1.5em;
+  padding-top: 1em;
+}
+
+.options1:hover {
+  color: grey;
+}
+
+.options {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-left: 1.5em;
+  color: black;
+}
+
+.options:hover {
+  color: grey;
+}
+
 /* Header and Navigation -----------------*/
 .topnav {
     overflow: hidden;
