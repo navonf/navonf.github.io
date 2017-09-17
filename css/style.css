@@ -37,7 +37,7 @@
     height: 100vh;
     min-width: 100%;
     background-size: cover;
-    }
+}
 .social-btn{
   height: 70px;
   width: 110px;
@@ -228,11 +228,17 @@ p.bio{
 }
 
 h1.nameTitle {
-  position: sticky;
+  position:relative;
   bottom: 0;
   left: 0;
   padding-left: .2em;
   font-size: 500%;
+}
+
+h1.mainTitle {
+  text-align: center;
+  font-size: 400%;
+  color: black;
 }
 
 h4.options1 {
@@ -246,7 +252,6 @@ h4.options1 {
 
 h4.options1:hover {
   color: black;
-  width: 140px;
 }
 
 h4.options {

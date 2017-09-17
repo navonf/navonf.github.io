@@ -43,7 +43,9 @@
 <header class="main_nav back">
   <div class="axe">
     <div class="topnav one" id="myTopnav">
-      <br><br><br><br>
+      <a href="index.html" style="text-decoration: none">
+        <h4 class="options1"> back </h4>
+      </a>
       <h1 class="aboutme"> about me </h1>
     </div>
   </div>
@@ -53,19 +55,11 @@
       <br><br><br>
       <div>
         <center>
-          <div class="container">
-              <div class="six slideLR">
-                <h2 class="subTitle"> univ. central fl </h2><br>
-                <img src="images/laptop.png">
-                <p> computer science · orlando, florida </p>
-              </div>
-              <div class="six columns">
-                <h2 class="sliding-middle-out"> leisure </h2><br>
-                <a href="https://www.youtube.com/user/Navonf" target="_blank" style="text-decoration: none">
-                  <img src="images/skateboard.png">
-                </a>
-                <p> i enjoy skateboarding and  <a href="https://www.youtube.com/user/Navonf" target="_blank" style="text-decoration: none">film</a> </p>
-              </div>
+          <div class="container" id="fadeMeIn">
+              <h1> i'm a computer science student at the university of central florida.
+                   I enjoy skateboarding, playing video games, and building cool stuff
+                   with my friends.
+              </h1>
           </div>
       </div>
         </center>
@@ -74,7 +68,10 @@
   </center>
 </header>
 <br>
-
+  <script>
+    $("#fadeMeIn").hide()
+      .fadeIn(1500)
+  </script>
 </body>
 
 <!-- Footer -->
