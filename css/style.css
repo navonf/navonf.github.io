@@ -159,6 +159,7 @@
 /* Typography & Properties ---------------------------*/
 font-family: 'Abel', sans-serif;
 font-family: 'Satisfy', cursive;
+
 h1{
     font-family: 'Abel';
     font-size: 3em;
@@ -170,6 +171,9 @@ h1.aboutme {
   font-size: 500%;
   vertical-align: center;
   color: white;
+}
+h2.aboutMeDes {
+
 }
 img.icon{
   max-width:5%;
@@ -207,6 +211,12 @@ img.hackathon{
 img.thinking{
    max-width:45%;
    max-height:45%;
+}
+img.aboutMe {
+  max-width:37%;
+  max-height:37%;
+  border-radius: 50%;
+
 }
 
 
