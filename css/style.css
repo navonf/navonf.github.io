@@ -9,19 +9,23 @@
 
 /* General Content -----------------------*/
 body {
-    /* font-family: "Lato", sans-serif; */
+  background-image: url("images/mac.gif");
+  background-repeat: repeat;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5em;
+  color: #000;
 }
 
 .sidenav {
-    margin-top: 23em;
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    /* background-color: #111; */
-    overflow-x: hidden;
+  margin-top: 23em;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* background-color: #111; */
+  overflow-x: hidden;
     padding-top: 20px;
 }
 
@@ -46,134 +50,53 @@ body {
 }
 
 .sidenav a:hover {
-    color: lightgrey;
-    text-decoration: underline;
+  color: lightgrey;
+  text-decoration: underline;
 }
 
 #projects {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-    display: none;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  display: none;
 }
 #blog {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-    display: none;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  display: none;
 }
 .innerBlog {
   font-size: 20px;
 }
 #code {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-    display: none;
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  display: none;
 }
 
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 .main{padding-top:3%;}
-.row{padding:2% 0;}
-.teal{background-color: #008080;}
-.white{background-color: #fff;}
-.welcome{
-  height: 200px;
-  width: 225px;
-}
-.nav{
-  border-radius: 10%;
-  height: 30%;
-  width: 30%;
-}
-.myName{
-  text-align: center;
-  margin-top: 30px;
-}
-.titles{
-  font-family: 'Abel';
-  font-size: 3em;
-  margin: 0.67em;
-  font-style: italic;
-
-}
-.back{
-    background-color: #fff;
-    height: 100vh;
-    min-width: 100%;
-    background-size: cover;
-    }
-.social-btn{
-  height: 70px;
-  width:S 150px;
-  font-size: 15px;
-  vertical-align: middle;
-}
-.hey{
-    position: relative;
-    left: 0;
-    top: 0;
-}
 
 /* Typography & Properties ---------------------------*/
 font-family: 'Abel', sans-serif;
 font-family: 'Satisfy', cursive;
 h1{
-    font-family: 'Abel';
-    font-size: 3em;
-    margin: 0.67em;
-    color: blue;
-}
-img.icon{
-  max-width: 3.5em;
-  max-height: 3.5em;
-}
-img.shake{
-   max-width:40%;
-   max-height:40%;
+  font-family: 'Abel';
+  font-size: 3em;
+  margin: 0.67em;
+  color: blue;
 }
 
-img.tthacks{
-   max-width:70%;
-   max-height:70%;
-}
 
-img.polyhacks{
-   max-width:70%;
-   max-height:70%;
-}
-
-img.express{
-   max-width:51%;
-   max-height:51%;
-}
-
-img.hackathon{
-   max-width:50%;
-   max-height:50%;
-}
-
-img.thinking{
-   max-width:45%;
-   max-height:45%;
-}
-
-hr.colored {
-    width: 200px;
-}
-
-body{
-    font-family: 'Abel', sans-serif;
-    font-size: 1.5em;
-    color: #000;
-}
 h2{
-    font-family: 'Abel';
-    font-size: 3em;
+  font-family: 'Abel';
+  font-size: 3em;
 }
 
 h2.bio{
@@ -185,8 +108,8 @@ p.bio{
 
 /* Header and Navigation -----------------*/
 header.main_nav{
-    padding: 1% 0;
-    display: block;
+  padding: 1% 0;
+  display: block;
 }
 
 /* Images and Media ----------------------*/
@@ -194,8 +117,8 @@ img{
   max-width: 100%;
 }
 img.avatar{
-    border-radius: 400px;
-    border: 2px solid #fff;
+  border-radius: 400px;
+  border: 2px solid #fff;
 }
 img:hover{
   opacity: 0.7;
@@ -210,6 +133,3 @@ h1:hover{
 hr {
   width: 75%;
 }
-/* Footer --------------------------------*/
-
-/* Media Queries -------------------------*/
